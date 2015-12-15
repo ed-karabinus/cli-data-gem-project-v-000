@@ -1,4 +1,6 @@
 require 'pry'
+require 'catpix'
+require 'tempfile'
 require_relative './scraper.rb'
 
 class Scraper::Homepage < Scraper
@@ -16,8 +18,6 @@ class Scraper::Homepage < Scraper
       events_hash[event.css('b a').text][:link_url] = 'https://en.wikipedia.org' + event.css('b a')[0]["href"]
     end
     events_hash
-    binding.pry
   end
-end
 
-a = Scraper::Homepage.new.on_this_day
+end
