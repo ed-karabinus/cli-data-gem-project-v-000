@@ -1,4 +1,4 @@
-class OnThisDay::CLI
+class WikiOnThisDay::CLI
 
   attr_reader :todays_page
 

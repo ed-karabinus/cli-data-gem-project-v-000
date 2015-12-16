@@ -47,14 +47,13 @@ PLATFORMS
 
 DEPENDENCIES
   bundler (~> 1.10)
-  nokogiri
-  wiki_on_this_day
-  tempfile
-  pry
+  nokogiri (~> 1.6)
+  pry (~> 0.10)
   rake (~> 10.0)
-  rspec
-  vcr
-  webmock
+  rspec (~> 3.0)
+  vcr (~> 3.0)
+  webmock (~> 1.0)
+  wiki_on_this_day!
 
 BUNDLED WITH
    1.10.6
