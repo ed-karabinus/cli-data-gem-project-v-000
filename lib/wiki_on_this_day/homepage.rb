@@ -1,9 +1,4 @@
-require 'pry'
-require 'catpix'
-require 'tempfile'
-require_relative './scraper.rb'
-
-class Scraper::Homepage < Scraper
+class WikiOnThisDay::Scraper::Homepage < WikiOnThisDay::Scraper
 
   def initialize
     super('https://en.wikipedia.org/wiki/Main_Page')

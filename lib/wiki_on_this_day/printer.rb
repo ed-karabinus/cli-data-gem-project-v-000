@@ -1,6 +1,4 @@
-require_relative './scraper.rb'
-
-class Printer
+class WikiOnThisDay::Printer
   
   attr_reader :html_doc, :events_hash
 

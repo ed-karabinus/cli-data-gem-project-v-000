@@ -1,7 +1,4 @@
-require_relative './scraper.rb'
-require 'pry'
-
-class Scraper::Article < Scraper
+class OnThisDay::Scraper::Article < OnThisDay::Scraper
 
   def initialize(link_url)
     super(link_url)

@@ -1,0 +1,9 @@
+#!/usr/bin/env ruby
+
+require 'bundler/setup'
+require 'wiki_on_this_day'
+
+# Add fixtures and/or initialization code here to aid in gem development.
+
+require 'irb'
+IRB.start

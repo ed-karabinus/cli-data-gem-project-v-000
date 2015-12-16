@@ -1,7 +1,4 @@
-require 'nokogiri'
-require 'open-uri'
-
-class Scraper
+class WikiOnThisDay::Scraper
   
   attr_reader :html_doc
 

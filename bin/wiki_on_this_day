@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+
+require 'wiki_on_this_day'
+
+WikiOnThisDay::CLI.new
