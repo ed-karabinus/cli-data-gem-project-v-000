@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    wiki_on_this_day (0.1.0)
+    wiki_on_this_day (0.1.1)
 
 GEM
   remote: https://rubygems.org/
