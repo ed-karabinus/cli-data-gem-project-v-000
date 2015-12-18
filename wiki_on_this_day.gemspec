@@ -8,7 +8,7 @@ Gem::Specification.new do |s|
   s.version       = WikiOnThisDay::VERSION
   s.date          = "2015-12-14"
   s.summary       = "Find out what happened on this day in the past, using Wikipedia!"
-  s.description   = "This gem scrapes the English Wikipedia Homepage (https://en.wikipedia.org/wiki/Main_Page) and obtains the list of significant historical events (and their abstracts) available there. Optionally, users may select one of the historical events and request the text of the linked article."
+  s.description   = "This gem scrapes the English Wikipedia Homepage (https://en.wikipedia.org/wiki/Main_Page) and obtains the list of significant historical events (and their abstracts) available there. Optionally, users may select one of the historical events and request the text of the first paragraph of the linked article."
   s.authors       = ["Ed Karabinus"]
   s.email         = 'karabinus@uchicago.edu'
   s.files         = `git ls-files`.split($\)
