@@ -1,5 +1,4 @@
 class WikiOnThisDay::Scraper
-  
   attr_reader :html_doc
 
   def initialize(page_url)

@@ -1,5 +1,6 @@
+
 #!/usr/bin/env ruby
 
-require 'wiki_on_this_day'
+require_relative '../lib/wiki_on_this_day'
 
 WikiOnThisDay::CLI.new
