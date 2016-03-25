@@ -1,4 +1,3 @@
-require 'pry'
 class WikiOnThisDay::Scraper::Homepage < WikiOnThisDay::Scraper
   attr_accessor :snippets
 

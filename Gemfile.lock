@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    wiki_on_this_day (0.2.0)
+    wiki_on_this_day (0.2.1)
       nokogiri (~> 1.6)
 
 GEM
